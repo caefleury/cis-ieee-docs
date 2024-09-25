@@ -1,0 +1,61 @@
+name: Publish docs-template website to GitHub Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - README.md
+      - .gitignore
+
+jobs:
+  deploy:
+    name: Publish main branch
+
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
+
+    environment:
+      name: github-pages
+      url: caefleury.github.io/docs-template/
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: setup dotnet
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 7.x
+
+      - name: install retypeapp with dotnet tool
+        run: dotnet tool install retypeapp --global
+
+      - name: build doc1
+        run: retype build ./doc1/retype.yml --output ./public/doc1
+
+      - name: build doc2
+        run: retype build ./doc2/retype.yml --output ./public/doc2
+
+      - name: build doc3
+        run: retype build ./doc3/retype.yml --output ./public/doc3
+
+      - name: setup pages
+        uses: actions/configure-pages@v4
+
+      - name: upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - name: deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
