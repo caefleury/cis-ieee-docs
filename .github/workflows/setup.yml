@@ -26,7 +26,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: caefleury.github.io/docs-template/
+      url: caefleury.github.io/cis-ieee-unb/
 
     steps:
       - uses: actions/checkout@v4
@@ -39,14 +39,14 @@ jobs:
       - name: install retypeapp with dotnet tool
         run: dotnet tool install retypeapp --global
 
-      - name: build doc1
-        run: retype build ./doc1/retype.yml --output ./public/doc1
+      - name: build diretorias
+        run: retype build ./diretorias/retype.yml --output ./public/diretorias
 
-      - name: build doc2
-        run: retype build ./doc2/retype.yml --output ./public/doc2
+      - name: build recursos
+        run: retype build ./recursos/retype.yml --output ./public/recursos
 
-      - name: build doc3
-        run: retype build ./doc3/retype.yml --output ./public/doc3
+      - name: build projetos
+        run: retype build ./projetos/retype.yml --output ./public/projetos
 
       - name: setup pages
         uses: actions/configure-pages@v4
