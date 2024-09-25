@@ -2,7 +2,7 @@ input: .
 output: .retype
 url: # Add your website address here
 branding:
-  title: docs-template.docs
-  label: Docs
+  title: IEEE CIS Docs
+  label: CISDocs
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
