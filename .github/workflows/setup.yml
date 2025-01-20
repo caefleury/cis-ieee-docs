@@ -48,6 +48,24 @@ jobs:
       - name: build projetos
         run: retype build ./projetos/retype.yml --output ./public/projetos
 
+      - name: build operacoes
+        run: retype build ./operacoes/retype.yml --output ./public/operacoes
+
+      - name: build engenharia-de-dados
+        run: retype build ./engenharia-de-dados/retype.yml --output ./public/engenharia-de-dados
+
+      - name: build ia
+        run: retype build ./ia/retype.yml --output ./public/ia
+
+      - name: build machine-learning
+        run: retype build ./machine-learning/retype.yml --output ./public/machine-learning
+
+      - name: build analise-de-dados
+        run: retype build ./analise-de-dados/retype.yml --output ./public/analise-de-dados
+
+      - name: build data-engineering
+        run: retype build ./data-engineering/retype.yml --output ./public/data-engineering
+
       - name: setup pages
         uses: actions/configure-pages@v4
 
