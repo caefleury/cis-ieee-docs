@@ -1,0 +1,12 @@
+input: .
+output: .retype
+url: caefleury.github.io/cis-ieee-docs/operacoes
+
+edit:
+  repo: "https://github.com/caefleury/cis-ieee-docs"
+  label: Altere essa página no GitHub.
+branding:
+  title: Operações
+links:
+  - text: Página Inicial
+    link: /

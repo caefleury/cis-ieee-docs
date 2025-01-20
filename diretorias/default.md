@@ -1,3 +1,3 @@
-# Bem-Vindo à Wiki docs-template - Diretoria
+# Bem-Vindo à Wiki cis-ieee - Diretoria
 
 Introdução básica.

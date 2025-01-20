@@ -1,17 +1,17 @@
 input: .
 output: .retype
-url: caefleury.github.io/cis-ieee-unb/recursos
+url: caefleury.github.io/cis-ieee-docs/recursos
 
 edit:
-  repo: "https://github.com/caefleury/cis-ieee-unb"
+  repo: "https://github.com/caefleury/cis-ieee-docs"
   label: Altere essa página no GitHub.
 branding:
   title: Recursos
 links:
   - text: Página Inicial
-    link: https://github.com/caefleury/cis-ieee-unb
+    link: https://github.com/caefleury/cis-ieee-docs
   - text: GitHub
-    link: https://github.com/caefleury/cis-ieee-unb.git
+    link: https://github.com/caefleury/cis-ieee-docs.git
 locale: pt-BR
 
 meta:

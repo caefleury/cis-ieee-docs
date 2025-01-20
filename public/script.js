@@ -30,27 +30,26 @@ toggleSideBarElements.forEach((element) => {
 
 // seta o tema inicial do site para o usuário
 (function () {
-  (m = localStorage.getItem("doc_theme")), (wm = window.matchMedia);
-  if (
-    m === "light" ||
-    (!m && wm && !wm("(prefers-color-scheme: dark)").matches)
-  ) {
-    body.classList.add("light");
-    toggleThemeButton.classList.add("light");
+  const theme = localStorage.getItem("doc_theme");
+  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+  if (theme === "light" || (!theme && !prefersDark)) {
+    body.classList.remove("dark");
+    toggleThemeButton.classList.remove("dark");
   } else {
-    body.classList.remove("light");
-    toggleThemeButton.classList.remove("light");
+    body.classList.add("dark");
+    toggleThemeButton.classList.add("dark");
   }
 })();
 
 // permite o usuário alterar o tema
 toggleThemeButton.addEventListener("click", () => {
-  body.classList.toggle("light");
-  toggleThemeButton.classList.toggle("light");
+  body.classList.toggle("dark");
+  toggleThemeButton.classList.toggle("dark");
 
-  if (body.classList.contains("light")) {
-    localStorage.setItem("doc_theme", "light");
-  } else {
+  if (body.classList.contains("dark")) {
     localStorage.setItem("doc_theme", "dark");
+  } else {
+    localStorage.setItem("doc_theme", "light");
   }
 });

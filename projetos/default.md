@@ -1,3 +1,3 @@
-# Bem-Vindo à Wiki docs-template - Projetos
+# Bem-Vindo à Wiki cis-ieee - Projetos
 
 Introdução básica.

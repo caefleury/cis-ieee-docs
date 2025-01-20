@@ -1,3 +1,3 @@
-# Bem-Vindo à Wiki docs-template - Recursos
+# Bem-Vindo à Wiki cis-ieee - Recursos
 
 Introdução básica.
