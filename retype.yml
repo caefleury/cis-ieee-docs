@@ -1,8 +1,13 @@
 input: .
 output: .retype
-url: # Add your website address here
+url: https://caefleury.github.io/cis-ieee-docs/
 branding:
   title: IEEE CIS Docs
   label: CISDocs
+links:
+  - text: Página Inicial
+    link: https://caefleury.github.io/cis-ieee-docs/
+  - text: GitHub
+    link: https://github.com/caefleury/cis-ieee-docs.git
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."

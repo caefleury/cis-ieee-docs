@@ -9,7 +9,7 @@ branding:
   title: Recursos
 links:
   - text: Página Inicial
-    link: https://github.com/caefleury/cis-ieee-docs
+    link: https://caefleury.github.io/cis-ieee-docs/
   - text: GitHub
     link: https://github.com/caefleury/cis-ieee-docs.git
 locale: pt-BR

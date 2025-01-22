@@ -9,7 +9,9 @@ branding:
   title: Análise de Dados
 links:
   - text: Página Inicial
-    link: /
+    link: https://caefleury.github.io/cis-ieee-docs/
+  - text: GitHub
+    link: https://github.com/caefleury/cis-ieee-docs.git
 footer:
   copyright: "&copy; Copyright {{ year }}. getMine().Docs Todos os direitos reservados."
 locale: pt-BR
