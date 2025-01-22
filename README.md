@@ -1,10 +1,29 @@
 # Objetivos desse guia:
 
-## Ensinar os conceitos básicos de:
+## Conceitos Básicos
 
-- Tópico 1
-- Tópico 2
-- Tópico 3
+A documentação está organizada nos seguintes tópicos principais:
+
+### Diretorias
+Informações sobre a estrutura organizacional e responsabilidades das diretorias do CIS-IEEE.
+
+### Operações
+Documentação sobre os processos operacionais e fluxos de trabalho.
+
+### Projetos
+Detalhes sobre os projetos em andamento e concluídos.
+
+### Engenharia de Dados
+Recursos e documentação relacionados à área de Engenharia de Dados.
+
+### Análise de Dados
+Guias e documentação sobre análise e visualização de dados.
+
+### Machine Learning
+Recursos e documentação sobre projetos e implementações de Machine Learning.
+
+### Recursos
+Ferramentas, bibliotecas e recursos úteis para o desenvolvimento.
 
 Este é um repositório de documentação com o objetivo de concentrar todo o conhecimento de _______.
 
@@ -13,7 +32,7 @@ Este é um repositório de documentação com o objetivo de concentrar todo o co
 ### 1 - Clone o Projeto
 
 ```bash
-git clone https://github.com/caefleury/docs-template.git
+git clone https://github.com/caefleury/cis-ieee-docs.git
 ```
 
 ### 2 - Instale o retypeapp
@@ -63,23 +82,22 @@ Para dúvidas sobre como escrever a documentação, acesse a [documentação do 
 Para adição de conteúdo à documentação, você pode especificar que sua branch foca no desenvolvimento de uma feature.
 Por exemplo, para a adição de documentação sobre alterações feitas no banco, você pode nomear sua branch de:
 
-> feat/script-bd
-
+> feat/diretoria-projetos
 Para correção de algo na documentação, você pode agora especificar que sua branch foca em uma fix.
 Por exemplo, para correção da documentação de typescript, você pode nomear sua branch de:
 
-> fix/typescript
+> fix/recursos-python
 
 ### Padrão de commits
 
 Os commits seguem o padrão dos [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/). Um commit feito para a issue de feat/deploy-banco pode ser feita da seguinte forma:
 
-> feat(script-bd): <comentario-do-que-foi-feito>
+> feat(diretoiras): <comentario-do-que-foi-feito>
 
 Para correção de algo na documentação, você pode agora especificar que sua branch foca em uma fix.
 Por exemplo, para correção da documentação de typescript, você pode nomear sua branch de:
 
-> fix(typescript): <comentario-do-que-foi-feito>
+> fix(recursos): <comentario-do-que-foi-feito>
 
 ### Crie uma PR com o nome da sua branch e elabore uma descrição explicativa
 
