@@ -26,7 +26,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: caefleury.github.io/cis-ieee-unb/
+      url: caefleury.github.io/cis-ieee-docs/
 
     steps:
       - uses: actions/checkout@v4
