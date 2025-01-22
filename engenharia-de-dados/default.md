@@ -1,11 +1,24 @@
 # Engenharia de Dados - CIS-IEEE UnB
 
-Esta seção aborda nossa infraestrutura e práticas de engenharia de dados, incluindo:
+Principais aspectos da engenharia de dados no CIS-IEEE:
 
-- Pipeline de dados
-- ETL processes
-- Data warehousing
-- Ferramentas e tecnologias
-- Melhores práticas
-- Governança de dados
-- Documentação técnica
+## Arquitetura
+
+- Modelagem de dados
+- Data Lakes e Data Warehouses
+- Bancos de dados SQL e NoSQL
+- Arquitetura distribuída
+
+## Processamento
+
+- ETL e Data Pipelines
+- Processamento em batch e streaming
+- Apache Spark e ferramentas Big Data
+- Orquestração de dados
+
+## Infraestrutura
+
+- Cloud Computing (AWS, GCP)
+- Containers e Kubernetes
+- Monitoramento e logging
+- Segurança e governança

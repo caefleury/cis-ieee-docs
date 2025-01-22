@@ -1,12 +1,24 @@
 # Machine Learning - CIS-IEEE UnB
 
-Documentação dos nossos projetos e práticas de Machine Learning:
+Principais aspectos de Machine Learning no CIS-IEEE:
 
-- Modelos em produção
-- Frameworks utilizados
-- Pipeline de treinamento
-- Avaliação de modelos
-- MLOps
-- Experimentos
-- Best practices
-- Research papers
+## Áreas de Atuação
+
+- Deep Learning
+- Processamento de Linguagem Natural
+- Visão Computacional
+- Aprendizado por Reforço
+
+## Desenvolvimento
+
+- Frameworks (TensorFlow, PyTorch)
+- Experimentação e prototipagem
+- Otimização de modelos
+- MLOps e deployment
+
+## Aplicações
+
+- Sistemas de recomendação
+- Classificação e regressão
+- Análise de sentimentos
+- Reconhecimento de padrões

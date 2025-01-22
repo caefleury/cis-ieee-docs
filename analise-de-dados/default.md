@@ -1,11 +1,24 @@
 # Análise de Dados - CIS-IEEE UnB
 
-Esta seção contém recursos e documentação sobre nossas práticas de análise de dados:
+Principais aspectos da análise de dados no CIS-IEEE:
 
-- Metodologias estatísticas
+## Fundamentos
+
+- Estatística descritiva e inferencial
 - Visualização de dados
 - Análise exploratória
-- Ferramentas de análise
-- Cases e estudos
-- Dashboards
-- Relatórios e insights
+- Limpeza e preparação de dados
+
+## Ferramentas e Técnicas
+
+- Python (Pandas, NumPy, Matplotlib)
+- Jupyter Notebooks
+- Dashboards interativos
+- SQL e análise de banco de dados
+
+## Aplicações
+
+- Análise preditiva
+- Detecção de anomalias
+- Segmentação de dados
+- Business Intelligence

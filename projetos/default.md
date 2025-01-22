@@ -1,3 +1,6 @@
-# Bem-Vindo à Wiki cis-ieee - Projetos
+# Projetos - CIS-IEEE UnB
 
-Introdução básica.
+## Projetos ativos
+
+- Housing prices project
+- Super resolution difusion model
