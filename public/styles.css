@@ -320,3 +320,147 @@ footer p {
 .__toggle-theme .to-dark-theme-icon {
   display: none;
 }
+
+/* Hero section styles */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1560px;
+  margin: 7rem auto 0;
+  padding: 2rem;
+  gap: 4rem;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content span {
+  color: var(--primary);
+}
+
+.hero-content .subtitle {
+  font-size: 1.25rem;
+  color: var(--muted-foreground);
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.primary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary);
+  color: var(--primary-foreground);
+  border-radius: var(--radius);
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.primary-button:hover {
+  opacity: 0.9;
+}
+
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--secondary);
+  color: var(--secondary-foreground);
+  border-radius: var(--radius);
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.secondary-button:hover {
+  background-color: var(--accent);
+}
+
+.hero-illustration {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cards-stack {
+  position: relative;
+  width: 300px;
+  height: 400px;
+}
+
+.cards-stack .card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  border-radius: var(--radius);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.cards-stack .card:nth-child(1) {
+  transform: rotate(-15deg) translateX(-10%) scale(0.85);
+  opacity: 0.3;
+}
+
+.cards-stack .card:nth-child(2) {
+  transform: rotate(-10deg) translateX(-5%) scale(0.9);
+  opacity: 0.5;
+}
+
+.cards-stack .card:nth-child(3) {
+  transform: rotate(-5deg) scale(0.95);
+  opacity: 0.7;
+}
+
+.cards-stack .card:nth-child(4) {
+  transform: rotate(0deg) scale(1);
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 5rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content .subtitle {
+    font-size: 1.1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cta-buttons {
+    justify-content: center;
+  }
+
+  .cards-stack {
+    width: 250px;
+    height: 350px;
+  }
+}
