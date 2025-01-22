@@ -329,7 +329,7 @@ footer p {
   max-width: 1560px;
   margin: 7rem auto 0;
   padding: 2rem;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .hero-content {
@@ -437,12 +437,13 @@ footer p {
   transform: rotate(0deg) scale(1);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .hero-section {
-    flex-direction: column;
-    text-align: center;
-    gap: 2rem;
+    flex-direction: row;
+    text-align: left;
+    gap: 1.5rem;
     margin-top: 5rem;
+    padding: 2rem;
   }
 
   .hero-content h1 {
@@ -451,16 +452,27 @@ footer p {
 
   .hero-content .subtitle {
     font-size: 1.1rem;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .cta-buttons {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   .cards-stack {
     width: 250px;
-    height: 350px;
+    height: 320px;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-section {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .hero-illustration {
+    display: none;
   }
 }
