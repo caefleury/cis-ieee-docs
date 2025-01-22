@@ -95,7 +95,7 @@ O projeto visa desenvolver uma plataforma de análise de preços de imóveis uti
 - Guia de deploy
 - Manual do usuário
 
-### 4. Impacto Esperado
+### 3. Impacto Esperado
 
 - **População:** Acesso facilitado a informações do mercado imobiliário
 - **Academia:** Dados disponíveis para pesquisa
